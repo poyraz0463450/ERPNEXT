@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/artegon_otomasyon/css/artegon_otomasyon.css"
-# app_include_js = "/assets/artegon_otomasyon/js/artegon_otomasyon.js"
+app_include_js = "/assets/artegon_otomasyon/js/desk_guard.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/artegon_otomasyon/css/artegon_otomasyon.css"
