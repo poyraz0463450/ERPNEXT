@@ -11,15 +11,14 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "artegon_otomasyon",
-# 		"logo": "/assets/artegon_otomasyon/logo.png",
-# 		"title": "ARTEGON Otomasyon",
-# 		"route": "/artegon_otomasyon",
-# 		"has_permission": "artegon_otomasyon.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "artegon_otomasyon",
+		"logo": "/assets/erpnext/images/erpnext-logo.svg",
+		"title": "ARTEGON",
+		"route": "/desk/Workspaces/ARTEGON%20Merkez",
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -63,6 +62,16 @@ app_include_js = "/assets/artegon_otomasyon/js/desk_guard.js"
 # role_home_page = {
 # 	"Role": "home_page"
 # }
+
+get_website_user_home_page = "artegon_otomasyon.ui_setup.get_website_user_home_page"
+
+website_redirects = [
+	{
+		"source": "/",
+		"target": "/desk/Workspaces/ARTEGON%20Merkez",
+		"redirect_http_status": 302,
+	},
+]
 
 # Generators
 # ----------

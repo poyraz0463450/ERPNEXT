@@ -9,6 +9,7 @@ WORKSPACE_NAME = "ARTEGON Merkez"
 SIDEBAR_NAME = "ARTEGON"
 MODULE_NAME = "ARTEGON Otomasyon"
 APP_NAME = "artegon_otomasyon"
+DEFAULT_APP_ROUTE = "desk/Workspaces/ARTEGON%20Merkez"
 
 HIDDEN_DESKTOP_ICONS = [
 	"Accounting",
@@ -228,6 +229,11 @@ def set_default_workspace_for_users() -> None:
 		pluck="name",
 	):
 		frappe.db.set_value("User", user_name, "default_workspace", WORKSPACE_NAME, update_modified=False)
+		frappe.db.set_value("User", user_name, "default_app", APP_NAME, update_modified=False)
+
+
+def set_default_app() -> None:
+	frappe.db.set_single_value("System Settings", "default_app", APP_NAME, update_modified=False)
 
 
 def apply_simplified_ui() -> dict[str, str]:
@@ -235,6 +241,14 @@ def apply_simplified_ui() -> dict[str, str]:
 	ensure_sidebar()
 	ensure_desktop_icon()
 	hide_standard_desktop_icons()
+	set_default_app()
 	set_default_workspace_for_users()
 	frappe.clear_cache()
 	return {"workspace": WORKSPACE_NAME, "sidebar": SIDEBAR_NAME}
+
+
+def get_website_user_home_page(user: str) -> str:
+	user_type = frappe.get_cached_value("User", user, "user_type")
+	if user_type == "System User":
+		return DEFAULT_APP_ROUTE
+	return "login"
