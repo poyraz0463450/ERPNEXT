@@ -95,3 +95,90 @@ Skip All,Tümünü Geç
 Welcome to the {0} workspace,{0} çalışma alanına hoş geldiniz
 completed,tamamlandı
 Reports & Records,Raporlar ve Kayıtlar
+Save,Kaydet
+Comments,Yorumlar
+Activity,Hareketler
+Assign,Ata
+Attachments,Eklentiler
+Share,Paylaş
+No Data,Veri Yok
+Loading...,Yükleniyor...
+steps completed,adım tamamlandı
+Last synced just now,Az önce eşitlendi
+Global Defaults,Genel Varsayılanlar
+System Settings,Sistem Ayarları
+Accounting Settings,Muhasebe Ayarları
+POS Settings,POS Ayarları
+Sales Settings,Satış Ayarları
+Buying Settings,Satın Alma Ayarları
+Stock Settings,Stok Ayarları
+Manufacturing Settings,Üretim Ayarları
+Projects Settings,Proje Ayarları
+CRM Settings,Müşteri Yönetimi Ayarları
+Support Settings,Destek Ayarları
+Other Settings,Diğer Ayarlar
+Production Plan,Üretim Planı
+Request for Quotation,Teklif Talebi
+Supplier Quotation,Tedarikçi Teklifi
+Purchase Order,Satın Alma Siparişi
+Purchase Receipt,Alış İrsaliyesi
+Purchase Invoice,Alış Faturası
+Sales Order,Satış Siparişi
+Sales Invoice,Satış Faturası
+Payment Entry,Ödeme Girişi
+Delivery Note,Sevkiyat Fişi
+Pick List,Toplama Listesi
+Serial No,Seri Numarası
+Batch,Parti
+Work Order,İş Emri
+Job Card,İş Kartı
+Operation,Operasyon
+Workstation,İş İstasyonu
+Subcontracting Order,Fason Siparişi
+Subcontracting Receipt,Fason Girişi
+Quality Review,Kalite İncelemesi
+Non Conformance,Uygunsuzluk
+Account,Hesap Planı
+Average Order Values,Ortalama Sipariş Tutarı
+Total Purchase Amount,Toplam Satın Alma Tutarı
+Manufactured Items Value,Üretilen Ürün Değeri
+WIP Work Orders,Devam Eden İş Emirleri
+Stock Value by Item Group,Ürün Grubuna Göre Stok Değeri
+Total Warehouses,Toplam Depo
+Total Active Items,Toplam Aktif Ürün
+Subcontracting Outward Order,Fason Çıkış Emri
+Subcontracting Inward Order Count,Fason Giriş Emri Sayısı
+Subcontracting Outward Order Count,Fason Çıkış Emri Sayısı
+Active Subcontracted Items,Aktif Fason Ürünler
+Setup Company,Şirket Kurulumu
+Assets Setup,Varlık Kurulumu
+Buying Setup,Satın Alma Kurulumu
+Manufacturing Setup,Üretim Kurulumu
+Projects Setup,Proje Kurulumu
+Selling Setup,Satış Kurulumu
+Stock Setup,Stok Kurulumu
+Subcontracting Setup,Fason Kurulumu
+Create Project,Proje Oluştur
+Create Task,Görev Oluştur
+Create Supplier,Tedarikçi Oluştur
+Create Item,Ürün Oluştur
+Create Purchase Invoice,Alış Faturası Oluştur
+Create Work Order,İş Emri Oluştur
+View Project Summary,Proje Özetini Görüntüle
+View Sales Order Analysis,Satış Siparişi Analizini Görüntüle
+Review Selling Settings,Satış Ayarlarını Gözden Geçir
+Review Buying Settings,Satın Alma Ayarlarını Gözden Geçir
+Review Manufacturing Settings,Üretim Ayarlarını Gözden Geçir
+Review Stock Settings,Stok Ayarlarını Gözden Geçir
+Review Subcontracting Settings,Fason Ayarlarını Gözden Geçir
+Create Warehouses,Depoları Oluştur
+Create Purchase Receipt,Alış İrsaliyesi Oluştur
+Create Transfer Entry,Transfer Kaydı Oluştur
+Create Delivery Note,Sevkiyat Fişi Oluştur
+View Stock Balance,Stok Bakiyesini Görüntüle
+Learn Asset,Varlığı Tanı
+Create Asset Category,Varlık Kategorisi Oluştur
+Create Asset Item,Varlık Kartı Oluştur
+Create Asset Location,Varlık Konumu Oluştur
+Create Existing Asset,Mevcut Varlığı Oluştur
+View Balance Sheet,Bilanç Görüntüle
