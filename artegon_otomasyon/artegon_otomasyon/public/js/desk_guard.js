@@ -1,4 +1,16 @@
 (function () {
+	const DEFAULT_WORKSPACE_ROUTE = ["Workspaces", "ARTEGON Merkez"];
+
+	function ensure_default_route() {
+		if (!window.frappe || typeof frappe.get_route !== "function") return;
+		const route = frappe.get_route() || [];
+		const is_empty_route = route.length === 0 || (route.length === 1 && !route[0]);
+
+		if (is_empty_route && typeof frappe.set_route === "function") {
+			frappe.set_route(...DEFAULT_WORKSPACE_ROUTE);
+		}
+	}
+
 	function patch_sidebar_guard() {
 		if (!window.frappe || !frappe.ui || !frappe.ui.Sidebar) return;
 		if (frappe.ui.Sidebar.__artegon_guard_applied) return;
@@ -34,10 +46,20 @@
 	}
 
 	if (window.frappe && typeof frappe.after_ajax === "function") {
-		frappe.after_ajax(() => patch_sidebar_guard());
+		frappe.after_ajax(() => {
+			patch_sidebar_guard();
+			ensure_default_route();
+		});
+	}
+
+	if (window.frappe && frappe.router && typeof frappe.router.on === "function") {
+		frappe.router.on("change", ensure_default_route);
 	}
 
 	patch_sidebar_guard();
+	ensure_default_route();
 	window.setTimeout(patch_sidebar_guard, 0);
 	window.setTimeout(patch_sidebar_guard, 500);
+	window.setTimeout(ensure_default_route, 0);
+	window.setTimeout(ensure_default_route, 500);
 })();
