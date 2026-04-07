@@ -1,0 +1,8 @@
+{
+  "db_host": "127.0.0.1",
+  "db_name": "YERINE_KENDI_DB_ADINI_YAZ",
+  "db_password": "YERINE_KENDI_DB_SIFRENI_YAZ",
+  "db_port": 3307,
+  "db_type": "mariadb",
+  "db_user": "YERINE_KENDI_DB_KULLANICINI_YAZ"
+}

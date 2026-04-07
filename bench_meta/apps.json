@@ -1,0 +1,28 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "17.0.0-dev"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "edba5f3a062d6551fa8229b77330da69c6616584",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "17.0.0-dev"
+    },
+    "artegon_otomasyon": {
+        "is_repo": false,
+        "resolution": "not a repo",
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    }
+}

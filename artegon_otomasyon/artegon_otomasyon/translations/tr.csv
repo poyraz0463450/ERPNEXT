@@ -1,0 +1,97 @@
+Framework,Çerçeve
+Frappe Framework,Frappe Altyapısı
+Automation,Otomasyon
+Build,Geliştirme
+Data,Veri
+Email,E-posta
+Integrations,Entegrasyonlar
+Manufacturing,Üretim
+Buying,Satın Alma
+Selling,Satış
+Quality,Kalite
+Stock,Stok
+Accounting,Muhasebe
+Financial Reports,Finansal Raporlar
+Accounts Setup,Hesap Ayarları
+Banking,Bankacılık
+Payments,Ödemeler
+Taxes,Vergiler
+Support,Destek
+CRM,Müşteri İlişkileri
+Assets,Varlıklar
+Subscription,Abonelik
+Subcontracting,Fason
+Share Management,Hisse Yönetimi
+Organization,Organizasyon
+Printing,Yazdırma
+System,Sistem
+Core,Çekirdek
+Workspace,Çalışma Alanı
+Users,Kullanıcılar
+User,Kullanıcı
+Website,Web Sitesi
+Home,Ana Sayfa
+Dashboard,Gösterge Paneli
+Project,Proje
+Projects,Projeler
+Task,Görev
+Tasks,Görevler
+Setup,Kurulum
+Reports,Raporlar
+Settings,Ayarlar
+Desktop,Masaüstü
+Workspaces,Çalışma Alanları
+Edit Sidebar,Yan Menüyü Düzenle
+Session Defaults,Oturum Varsayılanları
+Reload,Yenile
+Toggle Full Width,Tam Genişlik
+Toggle Theme,Tema Değiştir
+Help,Yardım
+Logout,Çıkış
+Monthly,Aylık
+Last Year,Geçen Yıl
+Completed Projects,Tamamlanan Projeler
+Active Projects,Aktif Projeler
+Non Completed Tasks,Tamamlanmamış Görevler
+Search,Ara
+Notification,Bildirim
+Organization,Organizasyon
+Role,Rol
+Permissions,Yetkiler
+Permission,Yetki
+Role Permissions,Rol Yetkileri
+User Permission,Kullanıcı İzni
+User Permissions,Kullanıcı İzinleri
+Permission Manager,Yetki Yöneticisi
+Permission Inspector,Yetki Denetleyicisi
+Permission Log,Yetki Günlüğü
+Access Log,Erişim Günlüğü
+Activity Log,İşlem Günlüğü
+Audits,Denetim Kayıtları
+Collapse,Daralt
+Role Permission for Page and Report,Sayfa ve Rapor Rol Yetkisi
+Permitted Documents For User,Kullanıcı İçin İzinli Belgeler
+Document Share Report,Belge Paylaşım Raporu
+Role Permissions Manager,Rol Yetki Yöneticisi
+Website Users,Web Kullanıcıları
+System Users,Sistem Kullanıcıları
+Failed Login Attempts,Başarısız Giriş Denemeleri
+Login Activity,Giriş Hareketleri
+Default Currency,Varsayılan Para Birimi
+Country,Ülke
+Enable Perpetual Inventory,Sürekli Envanteri Etkinleştir
+Is Group,Grup Mu
+Created On,Oluşturulma Tarihi
+Add Company,Şirket Ekle
+Save Filters,Filtreleri Kaydet
+List View,Liste Görünümü
+Getting Started,Başlangıç
+Setup Organization,Organizasyon Kurulumu
+Invite Users,Kullanıcıları Davet Et
+Setup Email Account,E-posta Hesabı Kurulumu
+Setup Role Permissions,Rol Yetkilerini Ayarla
+Review System Settings,Sistem Ayarlarını Gözden Geçir
+Skip All,Tümünü Geç
+Welcome to the {0} workspace,{0} çalışma alanına hoş geldiniz
+completed,tamamlandı
+Reports & Records,Raporlar ve Kayıtlar

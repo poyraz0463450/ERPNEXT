@@ -1,0 +1,3 @@
+frappe
+erpnext
+artegon_otomasyon
